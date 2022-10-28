@@ -1,0 +1,31 @@
+{
+  "name": "trello-playwright-ts",
+  "version": "1.0.0",
+  "description": "Automation E2E tests using Microsoft Playwright w/Typescript",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaime-contreras-98/trello-playwright-ts.git"
+  },
+  "keywords": [
+    "QA",
+    "E2E",
+    "API",
+    "Actions",
+    "Automation",
+    "Trello"
+  ],
+  "author": "Jaime Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaime-contreras-98/trello-playwright-ts/issues"
+  },
+  "homepage": "https://github.com/jaime-contreras-98/trello-playwright-ts#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
