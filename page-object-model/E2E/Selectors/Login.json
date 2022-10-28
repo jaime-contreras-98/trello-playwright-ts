@@ -1,0 +1,15 @@
+{
+    "LoginForm": {
+        "EmailInp": ".email-password #user",
+        "ContinueBtn": ".button.account-button",
+        "MicrosoftBtn": "#msftButton #msft-icon",
+        "PasswordInp": "#password",
+        "LogInBtn": "#login-submit"
+    },
+    "MifrosoftOnline": {
+        "EmailInp": "#i0116",
+        "PasswordInp": "#i0118",
+        "NextBtn": "#idSIButton9",
+        "CancelBtn": "#idBtn_Back"
+    }
+}

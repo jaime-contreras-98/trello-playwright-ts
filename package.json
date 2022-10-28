@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Automation E2E tests using Microsoft Playwright w/Typescript",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "e2e": "playwright test page-object-model/E2E/Tests/Login.spec.ts --headed --project=chromium && npx playwright show-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaime-contreras-98/trello-playwright-ts.git"
@@ -23,7 +25,10 @@
   },
   "homepage": "https://github.com/jaime-contreras-98/trello-playwright-ts#readme",
   "devDependencies": {
-    "@playwright/test": "^1.27.1"
+    "@playwright/test": "^1.27.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0"
   },
   "dependencies": {
     "dotenv": "^16.0.3"

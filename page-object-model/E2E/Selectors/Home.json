@@ -1,0 +1,8 @@
+{
+    "HomeHeader": {
+        "Header": "div[data-desktop-id='header']",
+        "TrelloLink": "div[class='m2N684FcksCyfT']",
+        "UserLogo": "button[type] div[class='yRPuNUIoZpQWwj']",
+        "LogoutLink": "div[class*='gJnViNu1Yqy4Og'] > nav  li:nth-child(12) > button"
+    }
+}
