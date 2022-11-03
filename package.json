@@ -4,7 +4,10 @@
   "description": "Automation E2E tests using Microsoft Playwright w/Typescript",
   "main": "index.js",
   "scripts": {
-    "e2e": "playwright test page-object-model/E2E/Tests/Login.spec.ts --headed --project=chromium && npx playwright show-report"
+    "e2e": "playwright test page-object-model/E2E/Tests/ --headed --project=chromium && npx playwright show-report",
+    "login": "playwright test page-object-model/E2E/Tests/Login.spec.ts --headed --project=chromium && npx playwright show-report",
+    "workspace": "playwright test page-object-model/E2E/Tests/Workspace.spec.ts --headed --project=chromium && npx playwright show-report",
+    "board": "playwright test page-object-model/E2E/Tests/Boards.spec.ts --headed --project=chromium && npx playwright show-report"
   },
   "repository": {
     "type": "git",
@@ -31,6 +34,8 @@
     "eslint": "^8.26.0"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "@faker-js/faker": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0"
   }
 }

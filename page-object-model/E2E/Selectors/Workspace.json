@@ -1,0 +1,25 @@
+{
+    "AddWorkspaceItems": {
+        "AddBtn": ".icon-add",
+        "SpaceNameInp": "input[data-test-id='header-create-team-name-input']",
+        "SpaceTypeDrop": "//div[@data-test-id='header-create-team-type-input']",
+        "SpaceTypeElem": "li.OxQ89JiBTrc76e",
+        "SpaceTypeElements": {
+            "Sales": "div[id*='option-0']",
+            "Operations ": "div[id*='option-1']",
+            "Engineering": "div[id*='option-2']",
+            "HResources": "div[id*='option-3']",
+            "SBusiness": "div[id*='option-4']",
+            "Marketing": "div[id*='option-5']",
+            "Education": "div[id*='option-6']",
+            "Other": "div[id*='option-7']"
+        },
+        "SpaceDescrInp": "textarea[id*='create-team-org-description']",
+        "ContinueBtn": "button._2z1Fyca2YAKEha",
+        "InviteLaterLbl": "a._1HV9-w-K-NNmAH"
+    },
+    "WorskpacePage": {
+        "TabbedNameLabel": "h2.ipXzDadDlIlEM7",
+        "NavNameLabel": "p._7XQUZlIOmB2CNl"
+    }
+}
