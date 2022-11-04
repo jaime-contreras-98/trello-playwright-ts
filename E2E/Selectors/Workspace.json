@@ -1,0 +1,22 @@
+{
+    "AddWorkspaceItems": {
+        "AddBtn": ".icon-add",
+        "SpaceNameInp": "input[data-test-id='header-create-team-name-input']",
+        "SpaceTypeDrop": "//div[@data-test-id='header-create-team-type-input']",
+        "SpaceTypeElem": "li.OxQ89JiBTrc76e",
+        "SpaceDescrInp": "textarea[id*='create-team-org-description']",
+        "ContinueBtn": "button._2z1Fyca2YAKEha",
+        "InviteLaterLbl": "a._1HV9-w-K-NNmAH"
+    },
+    "DeleteWorkspaceItems": {
+        "SettingsBtn": "[data-test-id='admin-settings-dropdown-button']",
+        "SpaceSettingsBtn": "div.gJnViNu1Yqy4Og li:nth-child(1)",
+        "DeleteBtn": "[data-test-id='delete-workspace-button']",
+        "SpaceNameInp": "#confirmWorkspaceName",
+        "ConfirmDeleteBtn": "[data-test-id='delete-workspace-confirm-button']"
+    },
+    "WorskpacePage": {
+        "TabbedNameLbl": "h2.ipXzDadDlIlEM7",
+        "NavNameLbl": "p._7XQUZlIOmB2CNl"
+    }
+}

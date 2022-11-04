@@ -1,0 +1,11 @@
+{
+    "NewBoardSelectors": {
+        "NewBoardBtn": "div.mod-add",
+        "BoardNameInp": "[data-test-id*='title-input']",
+        "SaveBoardBtn": "[data-test-id*='submit-button']"
+    },
+    "BoardSelectors": {
+        "WrapperBoardNameLbl": "h1.board-header-btn-text",
+        "ViewBoardNameLbl": "a.BIOyZdkbd7KotX._7xO25yaQAbZ4cb"
+    }
+}

@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { AddWorkspaceItems } from "../Selectors/Workspace.json";
+import { AddWorkspaceItems, DeleteWorkspaceItems } from "../Selectors/Workspace.json";
 
 export class Workspace {
 
@@ -23,7 +23,11 @@ export class Workspace {
     }
 
     async deleteWorkspace(name) {
-
+        await this.page.click(DeleteWorkspaceItems.SettingsBtn);
+        await this.page.click(DeleteWorkspaceItems.SpaceSettingsBtn);
+        await this.page.click(DeleteWorkspaceItems.DeleteBtn);
+        await this.page.fill(DeleteWorkspaceItems.SpaceNameInp, name);
+        await this.page.click(DeleteWorkspaceItems.ConfirmDeleteBtn);
     }
 
 }

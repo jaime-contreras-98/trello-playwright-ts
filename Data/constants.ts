@@ -19,7 +19,7 @@ export const CREDENTIALS = {
 };
 
 export const WORKSPACES = {
-    "NEW_NAME": "Board: " + uuidv4(),
+    "NEW_NAME": "Workspace: " + uuidv4(),
     "DESCRIPTION": "Description: " + faker.datatype.uuid()
 };
 
@@ -33,3 +33,7 @@ export const workspaceDropElements = [
     "Education",
     "Other"
 ];
+
+export const BOARDS = {
+    "NEW_NAME": "Board: " + uuidv4()
+};
