@@ -25,3 +25,6 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+        envkey_USER_EMAIL: ${{ secrets.USER_EMAIL }}
+        envkey_USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+        file_name: .env
