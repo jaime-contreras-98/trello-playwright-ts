@@ -51,6 +51,7 @@ const config: PlaywrightTestConfig = {
       name: "chromium",
       use: {
         ...devices["Desktop Chrome"],
+        channel: 'chrome',
       },
     },
 
@@ -68,6 +69,12 @@ const config: PlaywrightTestConfig = {
       },
     },
 
+    {
+      name: "edge",
+      use: {
+        channel: "msedge"
+      }
+    }
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

@@ -6,11 +6,11 @@ import { Header } from "../Selectors/Base.json";
 import { HomeHeader } from "../Selectors/Home.json";
 import { Logout } from "../Pages/Logout-Page";
 
-test.describe("Login tests for Trello webpage", () => {
+let loginPage: Login;
+let logoutPage: Logout;
+let homePage: Home;
 
-    let loginPage: Login;
-    let logoutPage: Logout;
-    let homePage: Home;
+test.describe("Login tests for Trello webpage", () => {
 
     test.beforeEach(async ({ page }) => {
         loginPage = new Login(page);
