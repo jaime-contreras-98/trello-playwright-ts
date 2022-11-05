@@ -1,9 +1,9 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, qe-login ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main, master, qe-login ]
 jobs:
   test:
     timeout-minutes: 60
@@ -18,7 +18,7 @@ jobs:
     #- name: Install Playwright Browsers
     #  run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: playwright test page-object-model/E2E/Tests/Login.spec.ts --headed --project=chromium && npx playwright show-report
+      run: playwright test E2E/Tests/ --headed --project=chromium && npx playwright show-report
     - uses: actions/upload-artifact@v3
       if: always()
       with:
